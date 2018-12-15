@@ -9,8 +9,7 @@ function deleteTask(){
             flag = true;
             i = index;
             count++;
-        }
-            
+        }   
     })
     if(flag == true && count == 1){
         var ul = document.querySelector("#taskList")
