@@ -9,8 +9,7 @@ function editTask(){
             flag = true;
             i = index;
             count++;
-        }
-            
+        } 
     })
     if(flag == true && count == 1){
         content[i].contentEditable = true;
