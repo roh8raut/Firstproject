@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TO-DO-LIST</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="delete.js"></script>
+    <script src="edit.js"></script>
+    <script src="new.js"></script>
+    <script src="background-color.js"></script>
+    <head>
+<body>
+    <div class="container">
+        <div class="row" id="row1">
+            <center><h1>TO-DO-LIST</h1></center>
+            <input type="textbox" id="textbox" placeholder = "enter task"onKeyPress = addTask(event)> 
+            <span class="fa fa-plus-circle" id="add" onclick="add()"></span>
+            <span class="fa fa-trash-o" id="delete" onclick="deleteTask()"></span>
+            <span class="fa fa-edit" style="font-size:36px" id="edit" onclick="editTask()"></span>
+
+        </div>
+
+        <div class="row" id="row2">
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+
+
+    
+</body>
