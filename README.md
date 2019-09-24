@@ -1,2 +1,2 @@
 # FIrstProject
-A simple To-do-list Using Js
+This is my first javascript based To-do-List
