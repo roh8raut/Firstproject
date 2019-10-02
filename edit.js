@@ -19,7 +19,7 @@ function editTask(){
         
     }else{
         count = 0;
-        alert("select tick a  single task")
+        alert("Select a task first");
     }
 }
 

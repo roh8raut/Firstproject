@@ -19,7 +19,7 @@ function deleteTask(){
         localStorage.setItem('content',(htmld))   
     }else{
         count = 0;
-        alert("select tick a  single task")
+        alert("Select a task first");
     }
 }
 
