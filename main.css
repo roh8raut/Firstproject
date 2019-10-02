@@ -1,8 +1,21 @@
 .container {
     border: 2px solid black;
-    height: 650px;
+    height: auto;
+    min-height: 650px;
     background-color: #9333FF;
     
+}
+
+.input__box, h1 {
+    text-align: center;
+}
+
+.input__box {
+    padding-left: 125px;
+}
+
+.icons {
+    background-color: red;
 }
 
 #add{
@@ -29,18 +42,14 @@
 }
 
 #textbox{
-    position: relative;
-    bottom: 42px;
-    left: 25px;
-    width: 190px;
+    
 }
 
 ul{
     list-style-type: none;
 }
-#textbox{
-    display: none;
-}
+
+
 .checkbox {
     margin-inline-end: 20px;
     position: relative !important;
@@ -54,7 +63,7 @@ ul{
     background-color: skyblue;
 }
 
-p {
+.itemList p {
     margin: 5px 0 8px 15px;
     position: relative !important;
     top: -13px !important; 
@@ -65,7 +74,7 @@ p {
     border-radius: 10px;
     background-color: antiquewhite;
     padding-inline-start: 20px;
-}
+} 
 
 p:focus{
     background-color: darkturquoise;
@@ -79,6 +88,25 @@ p:focus{
     width: 95%;
     border-radius:15px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    
+    .icons {
+        position: relative;
+        top: 50px;
+        right: 80px;
+    }
+
+    .input__box {
+        padding: 60px;
+    }
+
+    .itemList p {
+        width: 285px;
+        padding-inline-start: 0;
+    }
+  }
 
     
 
