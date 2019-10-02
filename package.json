@@ -1,0 +1,20 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "<p>     <img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHuNW8MCCNysEGhfzz2h7sBBGfI0WqmBR3IhksE6UL4vDnI6nS\" alt=\"Image\" width=\"20\" height=\"20\" />   My First Javascript based To-do List simple application. </p>",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roh8raut/FIrstProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roh8raut/FIrstProject/issues"
+  },
+  "homepage": "https://github.com/roh8raut/FIrstProject#readme"
+}
