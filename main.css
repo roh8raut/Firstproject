@@ -42,7 +42,11 @@
 }
 
 #textbox{
-    
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: #f00;
+    text-indent: 9px;
 }
 
 ul{
